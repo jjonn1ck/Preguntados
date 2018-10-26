@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\bin\Debug\Logica.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\bin\Debug\Datos.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\bin\Debug\Datos.pdb
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.pdb

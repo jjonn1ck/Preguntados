@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Datos\bin\Debug\Datos.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Datos\bin\Debug\Datos.pdb
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Datos\obj\Debug\Datos.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Datos\obj\Debug\Datos.pdb
