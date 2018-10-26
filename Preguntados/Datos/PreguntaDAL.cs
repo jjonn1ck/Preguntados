@@ -26,9 +26,5 @@ namespace Datos
 
 
 
-        /*public int alta (string desc,int idCat)
-        {
-
-        }*/
     }
 }
