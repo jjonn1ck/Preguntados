@@ -3,28 +3,72 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using Datos;
+
 
 namespace Logica
 {
-    class Usuario
+    public class Usuario
     {
-        private string nick;
-        private string clave;
 
 
-        public string Clave
+
+        private string Clave;
+
+        public string _Clave
         {
-            get { return clave; }
-            set { clave = value; }
+            get { return Clave; }
+            set { Clave = value; }
         }
 
 
-        public string Nick
+
+        private string nomUsuario;
+
+        public string _nomUsuario
         {
-            get { return nick; }
-            set { nick = value; }
+            get { return  nomUsuario; }
+            set {  nomUsuario = value; }
         }
 
+
+        public bool logIN(string nombreUsuario, string ClaveUsuario)
+        {
+            UsuarioDAT objDAT = new UsuarioDAT();
+
+            bool mePudeLoguear = false;
+
+            mePudeLoguear = objDAT.logIN(nombreUsuario,ClaveUsuario).Rows.Count > 0;
+
+            return mePudeLoguear;
+
+
+
+            
+
+                   
+        }
+
+
+
+        /*
+        public bool LogIN()
+        {
+            UsuarioDAT objDAT = new UsuarioDAT();
+
+            
+            DataTable tabla  = objDAT.logIN(this.nomUsuario, this.Clave);
+
+            if tabla.Rows
+            
+
+
+            return true;
+
+            
+        }
+        */
 
     }
 }

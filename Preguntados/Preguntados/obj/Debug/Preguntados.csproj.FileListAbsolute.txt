@@ -9,3 +9,10 @@ C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\bin\Debug
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\bin\Debug\Logica.pdb
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.exe
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.pdb
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\bin\Debug\Datos.dll
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\bin\Debug\Datos.pdb
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.MDItest.resources
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.CrearPregunta.resources
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.CrearUsuario.resources
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDePartida.resources
+C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDeSesion.resources

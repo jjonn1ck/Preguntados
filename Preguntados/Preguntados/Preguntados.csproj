@@ -46,16 +46,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrearPregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearPregunta.Designer.cs">
+      <DependentUpon>CrearPregunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearUsuario.Designer.cs">
+      <DependentUpon>CrearUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MDItest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDItest.Designer.cs">
+      <DependentUpon>MDItest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDePartida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDePartida.Designer.cs">
+      <DependentUpon>MenuDePartida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDeSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDeSesion.Designer.cs">
+      <DependentUpon>MenuDeSesion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrearPregunta.resx">
+      <DependentUpon>CrearPregunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearUsuario.resx">
+      <DependentUpon>CrearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDItest.resx">
+      <DependentUpon>MDItest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDePartida.resx">
+      <DependentUpon>MenuDePartida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDeSesion.resx">
+      <DependentUpon>MenuDeSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
