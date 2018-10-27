@@ -5,3 +5,12 @@ C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\bin\Debug\Dato
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.dll
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Logica\obj\Debug\Logica.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\bin\Debug\Logica.dll
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\bin\Debug\Logica.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\bin\Debug\Datos.dll
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\bin\Debug\Datos.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.dll
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.pdb

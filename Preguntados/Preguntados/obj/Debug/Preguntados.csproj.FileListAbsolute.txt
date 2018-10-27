@@ -16,3 +16,23 @@ C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.CrearUsuario.resources
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDePartida.resources
 C:\Users\Administrator\Desktop\Programacion\C#\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDeSesion.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Preguntados.exe.config
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Preguntados.exe
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Preguntados.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Logica.dll
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Datos.dll
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Logica.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin\Debug\Datos.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csprojAssemblyReference.cache
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearPregunta.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearUsuario.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Form1.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MDItest.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDePartida.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDeSesion.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Properties.Resources.resources
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.GenerateResource.cache
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.CoreCompileInputs.cache
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.CopyComplete
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.exe
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.pdb

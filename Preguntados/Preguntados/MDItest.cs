@@ -106,10 +106,17 @@ namespace Preguntados
             Form1 unFormulario = new Form1();
             unFormulario.MdiParent = this;
 
-            iniciarSesionToolStripMenuItem.Enabled = false;
+            iniciarSesionToolStripMenuItem.Visible=false;
 
             unFormulario.Show();
             
+        }
+
+        private void MDItest_Load(object sender, EventArgs e)
+        {
+            this.Text = "Preguntados";
+            jUGARToolStripMenuItem.Visible = false;
+            dESCONECTARMEToolStripMenuItem.Visible = false;
         }
     }
 }
