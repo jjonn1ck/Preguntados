@@ -197,7 +197,7 @@ namespace Datos
             catch (Exception)
             {
                 filasAfectadas = -1;
-              //  throw;
+                throw;
             }
             finally
             {

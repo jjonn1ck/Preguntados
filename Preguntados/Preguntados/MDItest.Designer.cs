@@ -32,10 +32,12 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.iniciarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jUGARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dESCONECTARMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vERTOPSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.crearPreguntaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -45,7 +47,9 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.iniciarSesionToolStripMenuItem,
             this.jUGARToolStripMenuItem,
-            this.dESCONECTARMEToolStripMenuItem});
+            this.vERTOPSToolStripMenuItem,
+            this.crearPreguntaToolStripMenuItem,
+            this.cerrarSesionToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
@@ -65,11 +69,11 @@
             this.jUGARToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.jUGARToolStripMenuItem.Text = "JUGAR";
             // 
-            // dESCONECTARMEToolStripMenuItem
+            // vERTOPSToolStripMenuItem
             // 
-            this.dESCONECTARMEToolStripMenuItem.Name = "dESCONECTARMEToolStripMenuItem";
-            this.dESCONECTARMEToolStripMenuItem.Size = new System.Drawing.Size(117, 20);
-            this.dESCONECTARMEToolStripMenuItem.Text = "DESCONECTARME";
+            this.vERTOPSToolStripMenuItem.Name = "vERTOPSToolStripMenuItem";
+            this.vERTOPSToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.vERTOPSToolStripMenuItem.Text = "Ver TOPS";
             // 
             // statusStrip
             // 
@@ -86,6 +90,18 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
+            // 
+            // crearPreguntaToolStripMenuItem
+            // 
+            this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
+            this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
             // 
             // MDItest
             // 
@@ -116,7 +132,9 @@
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem iniciarSesionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jUGARToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dESCONECTARMEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vERTOPSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem crearPreguntaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
     }
 }
 

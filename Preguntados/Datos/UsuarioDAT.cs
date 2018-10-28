@@ -29,17 +29,20 @@ namespace Datos
 
          }
          
-        /*
-        public DataTable logIN()
+        public DataTable buscarUsuario (string pNomUsuario)
         {
             Conexion objConexion = new Conexion();
-            string consultaSQL = "buscar_usuario";
-            DataTable objLog = objConexion.LeerPorStoreProcedure(consultaSQL, null);
-            return objLog;
-            
 
+            string nombreSPLog = "buscar_usuarioXnombre";
+
+            SqlParameter[] parametroStoreLog = new SqlParameter[1];
+
+            parametroStoreLog[0] = objConexion.crearParametro("@par1", pNomUsuario);
+
+            DataTable filasAfectadas = objConexion.LeerPorStoreProcedure(nombreSPLog, parametroStoreLog);
+
+            return filasAfectadas;
         }
-        */
 
         public int alta (string usuario, string password)
         {

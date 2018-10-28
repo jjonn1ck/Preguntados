@@ -106,7 +106,7 @@ namespace Preguntados
             Login unFormulario = new Login();
             unFormulario.MdiParent = this;
 
-            iniciarSesionToolStripMenuItem.Visible=false;
+           // iniciarSesionToolStripMenuItem.Visible=false;
 
             unFormulario.Show();
 
@@ -116,8 +116,10 @@ namespace Preguntados
         private void MDItest_Load(object sender, EventArgs e)
         {
             this.Text = "Preguntados";
-            jUGARToolStripMenuItem.Visible = false;
-            dESCONECTARMEToolStripMenuItem.Visible = false;
+            //jUGARToolStripMenuItem.Visible = false;
+            //cerrarSesionToolStripMenuItem.Visible = false;
+           // crearPreguntaToolStripMenuItem.Visible = false;
+            //vERTOPSToolStripMenuItem.Visible = false;
         }
     }
 }

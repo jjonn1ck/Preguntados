@@ -41,34 +41,20 @@ namespace Logica
 
             mePudeLoguear = objDAT.logIN(nombreUsuario,ClaveUsuario).Rows.Count > 0;
 
-            return mePudeLoguear;
-
-
-
-            
-
-                   
+            return mePudeLoguear;            
         }
 
-
-
-        /*
-        public bool LogIN()
+        public bool buscarUsuario(string nomUsuario)
         {
             UsuarioDAT objDAT = new UsuarioDAT();
 
-            
-            DataTable tabla  = objDAT.logIN(this.nomUsuario, this.Clave);
+            bool mePudeLoguear = false;
 
-            if tabla.Rows
-            
+            mePudeLoguear = objDAT.buscarUsuario(nomUsuario).Rows.Count > 0;
 
-
-            return true;
-
-            
+            return mePudeLoguear;
         }
-        */
+
 
         public bool alta ()
         {
