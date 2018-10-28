@@ -54,5 +54,42 @@ namespace Logica
             _categorias = objCategoria.Listar();
         }
 
+        public bool logIN(Usuario unUsuario)
+        {
+            SesionDAL objDAT = new SesionDAL();
+
+            bool mePudeLoguear = false;
+
+            mePudeLoguear = objDAT.logIN(unUsuario._nomUsuario, unUsuario._Clave).Rows.Count > 0;
+
+            return mePudeLoguear;
+        }
+
+        public bool buscarUsuario(Usuario unUsuario)
+        {
+            SesionDAL objDAT = new SesionDAL();
+
+            bool mePudeLoguear = false;
+
+            mePudeLoguear = objDAT.buscarUsuario(unUsuario._nomUsuario).Rows.Count > 0;
+
+            return mePudeLoguear;
+        }
+
+
+        public bool altaUsuario(Usuario unUsuario)
+        {
+            SesionDAL objUsuarioDAT = new SesionDAL();
+            int filasAfectadas = objUsuarioDAT.altaUsuario(unUsuario._nomUsuario, unUsuario._Clave);
+            if (filasAfectadas == -1)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
     }
 }

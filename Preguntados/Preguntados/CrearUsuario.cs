@@ -26,9 +26,10 @@ namespace Preguntados
                 Usuario unUsuario = new Usuario();
                 unUsuario._nomUsuario = txtUsuario.Text;
                 unUsuario._Clave = txtPassword1.Text;
-                if (unUsuario.buscarUsuario(unUsuario._nomUsuario)== false)
+                Sesion objSesion = new Sesion();
+                if (objSesion.buscarUsuario(unUsuario)== false)
                 {
-                    if (unUsuario.alta())
+                    if (objSesion.altaUsuario(unUsuario))
                     {
                         MessageBox.Show("El usuario ha sido creado correctamente");
                     }

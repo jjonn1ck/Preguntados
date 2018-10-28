@@ -28,19 +28,20 @@ namespace Preguntados
         {
 
 
+            Sesion objSesion = new Sesion();
             Usuario objUsuario = new Usuario();
 
             objUsuario._nomUsuario = txtUsuario.Text;
             objUsuario._Clave = txtContraseña.Text;
+            objSesion._usuario = objUsuario;
 
 
 
 
-            if (objUsuario.logIN(objUsuario._nomUsuario, objUsuario._Clave) == true
-
-                )
+            if (objSesion.logIN(objUsuario) == true)
             {
                 MessageBox.Show("Te logueaste de forma correcta");
+                objSesion._usuario = objUsuario;
 
             }
             else

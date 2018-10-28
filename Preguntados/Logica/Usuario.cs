@@ -33,42 +33,7 @@ namespace Logica
         }
 
 
-        public bool logIN(string nombreUsuario, string ClaveUsuario)
-        {
-            UsuarioDAT objDAT = new UsuarioDAT();
-
-            bool mePudeLoguear = false;
-
-            mePudeLoguear = objDAT.logIN(nombreUsuario,ClaveUsuario).Rows.Count > 0;
-
-            return mePudeLoguear;            
-        }
-
-        public bool buscarUsuario(string nomUsuario)
-        {
-            UsuarioDAT objDAT = new UsuarioDAT();
-
-            bool mePudeLoguear = false;
-
-            mePudeLoguear = objDAT.buscarUsuario(nomUsuario).Rows.Count > 0;
-
-            return mePudeLoguear;
-        }
-
-
-        public bool alta ()
-        {
-            UsuarioDAT objUsuarioDAT = new UsuarioDAT();
-            int filasAfectadas=objUsuarioDAT.alta(this._nomUsuario, this._Clave);
-            if (filasAfectadas == -1)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
+      
 
     }
 }
