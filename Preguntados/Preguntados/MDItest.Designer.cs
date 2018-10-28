@@ -33,11 +33,11 @@
             this.iniciarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jUGARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vERTOPSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.crearPreguntaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.crearPreguntaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -75,6 +75,18 @@
             this.vERTOPSToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.vERTOPSToolStripMenuItem.Text = "Ver TOPS";
             // 
+            // crearPreguntaToolStripMenuItem
+            // 
+            this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
+            this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -88,20 +100,8 @@
             // toolStripStatusLabel
             // 
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
-            this.toolStripStatusLabel.Text = "Estado";
-            // 
-            // crearPreguntaToolStripMenuItem
-            // 
-            this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
-            this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
-            this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
-            // 
-            // cerrarSesionToolStripMenuItem
-            // 
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
-            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(102, 17);
+            this.toolStripStatusLabel.Text = "Sesion no iniciada";
             // 
             // MDItest
             // 
