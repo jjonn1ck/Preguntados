@@ -70,5 +70,19 @@ namespace Logica
         }
         */
 
+        public bool alta ()
+        {
+            UsuarioDAT objUsuarioDAT = new UsuarioDAT();
+            int filasAfectadas=objUsuarioDAT.alta(this._nomUsuario, this._Clave);
+            if (filasAfectadas == -1)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
     }
 }

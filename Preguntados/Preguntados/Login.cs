@@ -12,9 +12,9 @@ using Logica;
 
 namespace Preguntados
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -48,17 +48,8 @@ namespace Preguntados
                 MessageBox.Show("NO Te logueaste de forma correcta");
             }
 
-
-
-
-
-
-
-
-
-
-
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -69,6 +60,11 @@ namespace Preguntados
         {
             CrearUsuario formcrear = new CrearUsuario();
             formcrear.ShowDialog();
+        }
+
+        private void Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+          
         }
     }
 }

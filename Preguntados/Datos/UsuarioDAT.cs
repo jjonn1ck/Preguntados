@@ -41,6 +41,17 @@ namespace Datos
         }
         */
 
+        public int alta (string usuario, string password)
+        {
+            Conexion objconexion = new Conexion();
+            string nombreProcedure = "usuario_alta";
+            SqlParameter[] parametros = new SqlParameter[2];
+            parametros[0] = objconexion.crearParametro("nom", usuario);
+            parametros[1] = objconexion.crearParametro("pass", password);
+            int filasAfectadas = objconexion.EscribirPorStoreProcedure(nombreProcedure, parametros);
+            return filasAfectadas;
+        }
+
 
     }
 }

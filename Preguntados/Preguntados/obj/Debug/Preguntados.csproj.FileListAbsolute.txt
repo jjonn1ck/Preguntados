@@ -26,7 +26,6 @@ C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\bin
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csprojAssemblyReference.cache
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearPregunta.resources
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearUsuario.resources
-C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Form1.resources
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MDItest.resources
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDePartida.resources
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDeSesion.resources
@@ -36,3 +35,4 @@ C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.CopyComplete
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.exe
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.pdb
+C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Login.resources

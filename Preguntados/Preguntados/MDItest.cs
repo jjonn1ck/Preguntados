@@ -103,12 +103,13 @@ namespace Preguntados
 
         private void iniciarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 unFormulario = new Form1();
+            Login unFormulario = new Login();
             unFormulario.MdiParent = this;
 
             iniciarSesionToolStripMenuItem.Visible=false;
 
             unFormulario.Show();
+
             
         }
 
