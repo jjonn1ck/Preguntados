@@ -10,13 +10,14 @@ namespace Datos
 { 
     public class SesionDAL
     {
-        public int Alta(string nomUsuario)
+        public int Alta(string nomUsuario,string fecha)
         {
             Conexion objConexion = new Conexion();
             // string consultaDeInsert = "insert into Sesion values ('"+nomUsuario + "'," + fechaInicio + ")";
             string nombreSP = "sesion_alta";
-            SqlParameter[] parametrosParaElStoreProcedure = new SqlParameter[1];
+            SqlParameter[] parametrosParaElStoreProcedure = new SqlParameter[2];
             parametrosParaElStoreProcedure[0] = objConexion.crearParametro("@nombre", nomUsuario);
+            parametrosParaElStoreProcedure[1] = objConexion.crearParametro("@fecha", fecha);
             int filasafectadas = objConexion.EscribirPorStoreProcedure(nombreSP, parametrosParaElStoreProcedure);
             return filasafectadas;
         }

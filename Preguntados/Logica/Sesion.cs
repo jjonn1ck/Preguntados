@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,15 @@ namespace Logica
             get { return id; }
             set { id = value; }
         }
+
+        private string inicioSesion;
+
+        public string _inicioSesion
+        {
+            get { return inicioSesion; }
+            set { inicioSesion = value; }
+        }
+
 
 
 
@@ -44,8 +54,11 @@ namespace Logica
 
         public void Alta()
         {
+            DateTime thistime = DateTime.Now;
+            CultureInfo ci = CultureInfo.InvariantCulture;
             SesionDAL objDAL = new SesionDAL();
-            objDAL.Alta(this._usuario._nomUsuario);
+            this._inicioSesion = thistime.ToString("yyyyMMdd HH:mm:ss.FFF", ci);
+            objDAL.Alta(this._usuario._nomUsuario,this._inicioSesion);
         }
 
         public void cargarCategorias()

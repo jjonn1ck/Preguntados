@@ -42,6 +42,7 @@ namespace Preguntados
             {
                 MessageBox.Show("Te logueaste de forma correcta");
                 objSesion._usuario = objUsuario;
+                objSesion.Alta();
 
             }
             else
@@ -54,7 +55,6 @@ namespace Preguntados
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btnCrearUsuario_Click(object sender, EventArgs e)
