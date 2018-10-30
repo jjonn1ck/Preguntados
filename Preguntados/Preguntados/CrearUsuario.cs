@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace Preguntados
 {
@@ -17,14 +18,43 @@ namespace Preguntados
             InitializeComponent();
         }
 
+
         private void btnCrearUsuario_Click(object sender, EventArgs e)
         {
+            if (txtPassword1.Text == txtPassword2.Text)
+            {
+                Usuario unUsuario = new Usuario();
+                unUsuario._nomUsuario = txtUsuario.Text;
+                unUsuario._Clave = txtPassword1.Text;
+                Sesion objSesion = Sesion.getInstance();
+                if (objSesion.buscarUsuario(unUsuario)== false)
+                {
+                    if (objSesion.altaUsuario(unUsuario))
+                    {
+                        MessageBox.Show("El usuario ha sido creado correctamente");
+                    }
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo crear el usuario porque ya existe");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Ambas contraseñas ingresadas no coinciden o se olvido escribir una");
+            }
 
         }
 
         private void CrearUsuario_Load(object sender, EventArgs e)
-        {
+        {     
+        }
 
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

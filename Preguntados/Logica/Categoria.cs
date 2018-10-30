@@ -11,7 +11,6 @@ namespace Logica
     public class Categoria
     {
       
-        private string descripcion;
         private int id;
 
         public int _id
@@ -20,6 +19,7 @@ namespace Logica
             set { id = value; }
         }
 
+        private string descripcion;
 
         public string _descripcion
         {
@@ -47,12 +47,30 @@ namespace Logica
                 unaCategoria = new Categoria();
                 unaCategoria._descripcion = fila["nombre"].ToString();
                 unaCategoria._id = int.Parse(fila["idCategoria"].ToString());
-                unaCategoria.cargarPreguntas();
                 lista.Add(unaCategoria);
 
             }
             return lista;
            
+        }
+
+        public List<Categoria> cargarCategoriasPreguntasRespuestas()
+        {
+            List<Categoria> lista = new List<Categoria>();
+            CategoriaDAL dal = new CategoriaDAL();
+        Categoria unaCategoria;
+
+            foreach(DataRow fila in dal.listar().Rows)
+            {
+                unaCategoria = new Categoria();
+                unaCategoria._descripcion = fila["nombre"].ToString();
+                unaCategoria._id = int.Parse(fila["idCategoria"].ToString());
+                unaCategoria.cargarPreguntas();
+                lista.Add(unaCategoria);
+
+            }
+            return lista;
+
         }
 
         public void cargarPreguntas()
