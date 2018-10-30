@@ -23,13 +23,13 @@ namespace Preguntados
         private void Form1_Load(object sender, EventArgs e)
         {
             
-            Text = "Preguntados";
+          /*  Text = "Preguntados";
             Sesion sesion = new Sesion();
             Usuario usuario = new Usuario();
             usuario._nomUsuario = "Brian";
             usuario._Clave = "1234";
             sesion._usuario = usuario;
-            sesion.Alta();
+            sesion.Alta();*/
             
             
           

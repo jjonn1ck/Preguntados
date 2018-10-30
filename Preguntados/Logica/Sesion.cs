@@ -10,9 +10,9 @@ namespace Logica
 {
     public class Sesion
     {
-        private Usuario usuario;
+
+        private static Sesion instance = null;
         private int id;
-        private List<Categoria> categorias = new List<Categoria>();
 
         public int _id
         {
@@ -28,9 +28,7 @@ namespace Logica
             set { inicioSesion = value; }
         }
 
-
-
-
+        private Usuario usuario;
 
         public Usuario _usuario
         {
@@ -38,7 +36,7 @@ namespace Logica
             set { usuario = value; }
         }
 
-       
+        private List<Categoria> categorias = new List<Categoria>();
 
         public List<Categoria> _categorias
         {
@@ -46,11 +44,17 @@ namespace Logica
             set { categorias = value; }
         }
 
-        public Sesion()
+        private Sesion()
         {
             cargarCategorias();
         }
       
+        public static Sesion getInstance()
+        {
+            if (instance == null)
+                instance = new Sesion();
+            return instance;
+        }
 
         public void Alta()
         {
@@ -64,7 +68,7 @@ namespace Logica
         public void cargarCategorias()
         {
             Categoria objCategoria = new Categoria();
-            _categorias = objCategoria.Listar();
+            _categorias = objCategoria.cargarCategoriasPreguntasRespuestas();
         }
 
         public bool logIN(Usuario unUsuario)

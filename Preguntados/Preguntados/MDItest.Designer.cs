@@ -58,6 +58,7 @@
             // 
             // iniciarSesionToolStripMenuItem
             // 
+            this.iniciarSesionToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.iniciarSesionToolStripMenuItem.Name = "iniciarSesionToolStripMenuItem";
             this.iniciarSesionToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.iniciarSesionToolStripMenuItem.Text = "Iniciar Sesion";
@@ -65,27 +66,32 @@
             // 
             // jUGARToolStripMenuItem
             // 
+            this.jUGARToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.jUGARToolStripMenuItem.Name = "jUGARToolStripMenuItem";
             this.jUGARToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.jUGARToolStripMenuItem.Text = "JUGAR";
             // 
             // vERTOPSToolStripMenuItem
             // 
+            this.vERTOPSToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.vERTOPSToolStripMenuItem.Name = "vERTOPSToolStripMenuItem";
             this.vERTOPSToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.vERTOPSToolStripMenuItem.Text = "Ver TOPS";
             // 
             // crearPreguntaToolStripMenuItem
             // 
+            this.crearPreguntaToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
             this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
             this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
             // 
             // cerrarSesionToolStripMenuItem
             // 
+            this.cerrarSesionToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // statusStrip
             // 
@@ -115,6 +121,9 @@
             this.Name = "MDItest";
             this.Text = "MDItest";
             this.Load += new System.EventHandler(this.MDItest_Load);
+            this.EnabledChanged += new System.EventHandler(this.MDItest_EnabledChanged);
+            this.VisibleChanged += new System.EventHandler(this.MDItest_VisibleChanged);
+            this.Enter += new System.EventHandler(this.MDItest_Enter);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
@@ -128,13 +137,13 @@
 
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
         private System.Windows.Forms.ToolTip toolTip;
-        private System.Windows.Forms.ToolStripMenuItem iniciarSesionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jUGARToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem vERTOPSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crearPreguntaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem jUGARToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem iniciarSesionToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem vERTOPSToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem crearPreguntaToolStripMenuItem;
+        public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
     }
 }
 

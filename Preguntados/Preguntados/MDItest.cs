@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace Preguntados
 {
@@ -104,10 +105,8 @@ namespace Preguntados
         private void iniciarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Login unFormulario = new Login();
-            unFormulario.MdiParent = this;
-
-           // iniciarSesionToolStripMenuItem.Visible=false;
-
+             unFormulario.MdiParent = this;
+            unFormulario._opener = this;
             unFormulario.Show();
 
             
@@ -116,10 +115,45 @@ namespace Preguntados
         private void MDItest_Load(object sender, EventArgs e)
         {
             this.Text = "Preguntados";
-            //jUGARToolStripMenuItem.Visible = false;
-            //cerrarSesionToolStripMenuItem.Visible = false;
-           // crearPreguntaToolStripMenuItem.Visible = false;
-            //vERTOPSToolStripMenuItem.Visible = false;
+            jUGARToolStripMenuItem.Visible = false;
+            cerrarSesionToolStripMenuItem.Visible = false;
+            crearPreguntaToolStripMenuItem.Visible = false;
+            vERTOPSToolStripMenuItem.Visible = false;
+        }
+
+
+        private void MDItest_Enter(object sender, EventArgs e)
+        {
+            if (Sesion.getInstance()._inicioSesion == null)
+                toolStripStatusLabel.Text = "Sesion no iniciado";
+            else
+                toolStripStatusLabel.Text = "Sesion iniciada con el usuario '" + Sesion.getInstance()._usuario._nomUsuario + "'";
+        }
+
+        private void MDItest_EnabledChanged(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void MDItest_VisibleChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result= MessageBox.Show("¿Desea cerrar sesion?", "Saliendo",MessageBoxButtons.YesNo);
+            if (result==DialogResult.Yes)
+            {
+                Sesion.getInstance()._usuario = null;
+                toolStripStatusLabel.Text = "Sesion no iniciado";
+                jUGARToolStripMenuItem.Visible = false;
+                iniciarSesionToolStripMenuItem.Visible = true;
+                vERTOPSToolStripMenuItem.Visible = false;
+                crearPreguntaToolStripMenuItem.Visible = false;
+                cerrarSesionToolStripMenuItem.Visible = false;
+            }
+                
         }
     }
 }

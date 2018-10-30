@@ -26,7 +26,7 @@ namespace Preguntados
                 Usuario unUsuario = new Usuario();
                 unUsuario._nomUsuario = txtUsuario.Text;
                 unUsuario._Clave = txtPassword1.Text;
-                Sesion objSesion = new Sesion();
+                Sesion objSesion = Sesion.getInstance();
                 if (objSesion.buscarUsuario(unUsuario)== false)
                 {
                     if (objSesion.altaUsuario(unUsuario))
@@ -49,8 +49,7 @@ namespace Preguntados
         }
 
         private void CrearUsuario_Load(object sender, EventArgs e)
-        {
-            
+        {     
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
