@@ -48,7 +48,6 @@ namespace Preguntados
             if (objSesion.logIN(objUsuario) == true)
             {
                 MessageBox.Show("Te logueaste de forma correcta");
-                Sesion.getInstance()._usuario = objUsuario;
                 Sesion.getInstance().Alta();
                 opener.toolStripStatusLabel.Text = "Sesion iniciada con el usuario '" + Sesion.getInstance()._usuario._nomUsuario + "'";
                

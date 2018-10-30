@@ -65,6 +65,7 @@ namespace Logica
             objDAL.Alta(this._usuario._nomUsuario,this._inicioSesion);
         }
 
+      
         public void cargarCategorias()
         {
             Categoria objCategoria = new Categoria();
@@ -78,8 +79,23 @@ namespace Logica
             bool mePudeLoguear = false;
 
             mePudeLoguear = objDAT.logIN(unUsuario._nomUsuario, unUsuario._Clave).Rows.Count > 0;
-
+            if (mePudeLoguear)
+                this._usuario = unUsuario;
             return mePudeLoguear;
+        }
+
+        public void logOUT ()
+        {
+            if (usuario!=null)
+            {
+                SesionDAL objDAT = new SesionDAL();
+                DateTime thistime = DateTime.Now;
+                CultureInfo ci = CultureInfo.InvariantCulture;
+                string finSesion;
+                finSesion = thistime.ToString("yyyyMMdd HH:mm:ss.FFF", ci);
+                objDAT.logOUT(this._usuario._nomUsuario,this._inicioSesion,finSesion);
+                usuario = null;
+            }
         }
 
         public bool buscarUsuario(Usuario unUsuario)

@@ -124,10 +124,6 @@ namespace Preguntados
 
         private void MDItest_Enter(object sender, EventArgs e)
         {
-            if (Sesion.getInstance()._inicioSesion == null)
-                toolStripStatusLabel.Text = "Sesion no iniciado";
-            else
-                toolStripStatusLabel.Text = "Sesion iniciada con el usuario '" + Sesion.getInstance()._usuario._nomUsuario + "'";
         }
 
         private void MDItest_EnabledChanged(object sender, EventArgs e)
@@ -145,8 +141,8 @@ namespace Preguntados
             DialogResult result= MessageBox.Show("¿Desea cerrar sesion?", "Saliendo",MessageBoxButtons.YesNo);
             if (result==DialogResult.Yes)
             {
-                Sesion.getInstance()._usuario = null;
-                toolStripStatusLabel.Text = "Sesion no iniciado";
+                Sesion.getInstance().logOUT();
+                toolStripStatusLabel.Text = "Sesion no iniciada";
                 jUGARToolStripMenuItem.Visible = false;
                 iniciarSesionToolStripMenuItem.Visible = true;
                 vERTOPSToolStripMenuItem.Visible = false;

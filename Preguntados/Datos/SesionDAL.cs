@@ -40,6 +40,18 @@ namespace Datos
 
         }
 
+        public int logOUT(string nomUsuario,string inicionSesion,string finSesion)
+        {
+            Conexion objConexion = new Conexion();
+            string nombreSP = "sesion_logout";
+            SqlParameter[] parametros = new SqlParameter[3];
+            parametros[0] = objConexion.crearParametro("@nom", nomUsuario);
+            parametros[1] = objConexion.crearParametro("@sesioninicio", inicionSesion);
+            parametros[2] = objConexion.crearParametro("@sesionfin", finSesion);
+            int filasafectadas = objConexion.EscribirPorStoreProcedure(nombreSP, parametros);
+            return filasafectadas;
+        }
+
         public DataTable buscarUsuario(string pNomUsuario)
         {
             Conexion objConexion = new Conexion();
