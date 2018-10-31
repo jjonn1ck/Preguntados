@@ -35,6 +35,24 @@ namespace Preguntados
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
+            Pregunta pregunta = new Pregunta();
+            string categoria;
+            pregunta._descripcion = txtPregunta.Text;
+            categoria = cmbCategoria.Text;
+            Respuesta respuesta1 = new Respuesta();
+            respuesta1._descripcion = txtOpcion1.Text;
+            Respuesta respuesta2 = new Respuesta();
+            respuesta2._descripcion = txtOpcion2.Text;
+            Respuesta respuesta3 = new Respuesta();
+            respuesta3._descripcion = txtOpcion3.Text;
+            Respuesta respuesta4 = new Respuesta();
+            respuesta4._descripcion = txtOpcion4.Text;
+
+
+
+
+
+
 
 
 

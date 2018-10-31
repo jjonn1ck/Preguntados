@@ -9,3 +9,9 @@ C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Datos\obj\Debug
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Datos\obj\Debug\Datos.dll
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Datos\obj\Debug\Datos.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\obj\Debug\Datos.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\obj\Debug\Datos.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\bin\Debug\Datos.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Datos\bin\Debug\Datos.pdb
