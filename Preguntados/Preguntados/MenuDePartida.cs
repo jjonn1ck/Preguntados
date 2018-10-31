@@ -13,6 +13,14 @@ namespace Preguntados
 {
     public partial class MenuDePartida : Form
     {
+        private MDItest opener;
+
+        public MDItest _opener
+        {
+            get { return opener; }
+            set { opener = value; }
+        }
+
         public MenuDePartida()
         {
             InitializeComponent();

@@ -179,5 +179,17 @@ namespace Preguntados
             crearPreguntaToolStripMenuItem.Visible = true;
             cerrarSesionToolStripMenuItem.Visible = true;
         }
+
+        private void jUGARToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuDePartida objMenuPartida = new MenuDePartida();
+            objMenuPartida._opener = this;
+            objMenuPartida.MdiParent = this;
+            objMenuPartida.Show();
+            this.ocultarBotonesMenu();
+
+
+
+        }
     }
 }

@@ -70,6 +70,7 @@
             this.jUGARToolStripMenuItem.Name = "jUGARToolStripMenuItem";
             this.jUGARToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.jUGARToolStripMenuItem.Text = "JUGAR";
+            this.jUGARToolStripMenuItem.Click += new System.EventHandler(this.jUGARToolStripMenuItem_Click);
             // 
             // vERTOPSToolStripMenuItem
             // 

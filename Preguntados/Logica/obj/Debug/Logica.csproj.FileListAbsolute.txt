@@ -14,3 +14,12 @@ C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debu
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.dll
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Logica\obj\Debug\Logica.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\bin\Debug\Logica.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\bin\Debug\Logica.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\bin\Debug\Datos.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\bin\Debug\Datos.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\obj\Debug\Logica.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Logica\obj\Debug\Logica.pdb
