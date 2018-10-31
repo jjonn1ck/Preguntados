@@ -102,18 +102,18 @@ namespace Logica
         {
             SesionDAL objDAT = new SesionDAL();
 
-            bool mePudeLoguear = false;
+            bool encontroUsuario= false;
 
-            mePudeLoguear = objDAT.buscarUsuario(unUsuario._nomUsuario).Rows.Count > 0;
+            encontroUsuario = objDAT.buscarUsuario(unUsuario._nomUsuario).Rows.Count > 0;
 
-            return mePudeLoguear;
+            return encontroUsuario;
         }
 
 
         public bool altaUsuario(Usuario unUsuario)
         {
-            SesionDAL objUsuarioDAT = new SesionDAL();
-            int filasAfectadas = objUsuarioDAT.altaUsuario(unUsuario._nomUsuario, unUsuario._Clave);
+            SesionDAL objUsuarioDAL = new SesionDAL();
+            int filasAfectadas = objUsuarioDAL.altaUsuario(unUsuario._nomUsuario, unUsuario._Clave);
             if (filasAfectadas == -1)
             {
                 return false;
@@ -124,5 +124,47 @@ namespace Logica
             }
         }
 
+        public bool buscarPregunta (Pregunta unaPregunta)
+        {
+            SesionDAL objDAL = new SesionDAL();
+            bool encontroPregunta = false;
+
+            encontroPregunta = objDAL.buscarPregunta(unaPregunta._descripcion).Rows.Count > 0;
+
+            return encontroPregunta;
+
+        }
+
+        public bool altaPreguntayRespuestas (Pregunta unaPregunta,string descCategoria)
+        {
+            SesionDAL objUsuarioDAL = new SesionDAL();
+            int filasAfectadas = objUsuarioDAL.altaPreguntayRespuestas(unaPregunta._descripcion, descCategoria,Sesion.getInstance()._usuario._nomUsuario,Sesion.getInstance()._inicioSesion);
+            if (filasAfectadas == -1)
+            {
+                return false;
+            }
+            else
+            {
+                foreach (Respuesta resps in unaPregunta._respuestas)
+                {
+                    this.altaRespuesta(resps, unaPregunta._descripcion);
+                }
+                return true;
+            }
+        }
+
+        public bool altaRespuesta (Respuesta unaRespuesta,string pregDescripcion)
+        {
+            SesionDAL objUsuarioDAL = new SesionDAL();
+            int filasAfectadas = objUsuarioDAL.altaRespuesta(unaRespuesta._descripcion, unaRespuesta._correcto, pregDescripcion);
+            if (filasAfectadas == -1)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }

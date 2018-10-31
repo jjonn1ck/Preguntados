@@ -50,7 +50,7 @@
             // 
             // btnCrear
             // 
-            this.btnCrear.Location = new System.Drawing.Point(230, 280);
+            this.btnCrear.Location = new System.Drawing.Point(99, 321);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(75, 23);
             this.btnCrear.TabIndex = 0;
@@ -60,28 +60,28 @@
             // 
             // txtOpcion1
             // 
-            this.txtOpcion1.Location = new System.Drawing.Point(162, 102);
+            this.txtOpcion1.Location = new System.Drawing.Point(186, 136);
             this.txtOpcion1.Name = "txtOpcion1";
             this.txtOpcion1.Size = new System.Drawing.Size(232, 20);
             this.txtOpcion1.TabIndex = 1;
             // 
             // txtOpcion2
             // 
-            this.txtOpcion2.Location = new System.Drawing.Point(162, 143);
+            this.txtOpcion2.Location = new System.Drawing.Point(186, 177);
             this.txtOpcion2.Name = "txtOpcion2";
             this.txtOpcion2.Size = new System.Drawing.Size(232, 20);
             this.txtOpcion2.TabIndex = 2;
             // 
             // txtOpcion3
             // 
-            this.txtOpcion3.Location = new System.Drawing.Point(162, 185);
+            this.txtOpcion3.Location = new System.Drawing.Point(186, 219);
             this.txtOpcion3.Name = "txtOpcion3";
             this.txtOpcion3.Size = new System.Drawing.Size(232, 20);
             this.txtOpcion3.TabIndex = 3;
             // 
             // txtOpcion4
             // 
-            this.txtOpcion4.Location = new System.Drawing.Point(162, 232);
+            this.txtOpcion4.Location = new System.Drawing.Point(186, 266);
             this.txtOpcion4.Name = "txtOpcion4";
             this.txtOpcion4.Size = new System.Drawing.Size(232, 20);
             this.txtOpcion4.TabIndex = 4;
@@ -89,7 +89,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 99);
+            this.label1.Location = new System.Drawing.Point(96, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 5;
@@ -98,7 +98,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 232);
+            this.label2.Location = new System.Drawing.Point(96, 266);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 6;
@@ -107,7 +107,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 189);
+            this.label3.Location = new System.Drawing.Point(96, 223);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 7;
@@ -116,7 +116,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(72, 147);
+            this.label4.Location = new System.Drawing.Point(96, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 8;
@@ -124,7 +124,7 @@
             // 
             // txtPregunta
             // 
-            this.txtPregunta.Location = new System.Drawing.Point(162, 21);
+            this.txtPregunta.Location = new System.Drawing.Point(186, 55);
             this.txtPregunta.Name = "txtPregunta";
             this.txtPregunta.Size = new System.Drawing.Size(232, 20);
             this.txtPregunta.TabIndex = 9;
@@ -132,7 +132,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(72, 21);
+            this.label5.Location = new System.Drawing.Point(96, 55);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 10;
@@ -141,7 +141,7 @@
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(72, 63);
+            this.label77.Location = new System.Drawing.Point(96, 97);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(52, 13);
             this.label77.TabIndex = 11;
@@ -150,7 +150,7 @@
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(162, 63);
+            this.cmbCategoria.Location = new System.Drawing.Point(186, 97);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(116, 21);
             this.cmbCategoria.TabIndex = 12;
@@ -159,7 +159,7 @@
             // rdOpcion2
             // 
             this.rdOpcion2.AutoSize = true;
-            this.rdOpcion2.Location = new System.Drawing.Point(423, 143);
+            this.rdOpcion2.Location = new System.Drawing.Point(447, 177);
             this.rdOpcion2.Name = "rdOpcion2";
             this.rdOpcion2.Size = new System.Drawing.Size(65, 17);
             this.rdOpcion2.TabIndex = 13;
@@ -170,7 +170,7 @@
             // rdOpcion1
             // 
             this.rdOpcion1.AutoSize = true;
-            this.rdOpcion1.Location = new System.Drawing.Point(423, 103);
+            this.rdOpcion1.Location = new System.Drawing.Point(447, 137);
             this.rdOpcion1.Name = "rdOpcion1";
             this.rdOpcion1.Size = new System.Drawing.Size(65, 17);
             this.rdOpcion1.TabIndex = 14;
@@ -181,7 +181,7 @@
             // rdOpcion4
             // 
             this.rdOpcion4.AutoSize = true;
-            this.rdOpcion4.Location = new System.Drawing.Point(423, 233);
+            this.rdOpcion4.Location = new System.Drawing.Point(447, 267);
             this.rdOpcion4.Name = "rdOpcion4";
             this.rdOpcion4.Size = new System.Drawing.Size(65, 17);
             this.rdOpcion4.TabIndex = 15;
@@ -192,7 +192,7 @@
             // rdOpcion3
             // 
             this.rdOpcion3.AutoSize = true;
-            this.rdOpcion3.Location = new System.Drawing.Point(423, 185);
+            this.rdOpcion3.Location = new System.Drawing.Point(447, 219);
             this.rdOpcion3.Name = "rdOpcion3";
             this.rdOpcion3.Size = new System.Drawing.Size(65, 17);
             this.rdOpcion3.TabIndex = 16;
@@ -202,18 +202,19 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(457, 280);
+            this.btnCancelar.Location = new System.Drawing.Point(326, 321);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // CrearPregunta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 331);
+            this.ClientSize = new System.Drawing.Size(632, 453);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.rdOpcion3);
             this.Controls.Add(this.rdOpcion4);
@@ -234,6 +235,7 @@
             this.Controls.Add(this.btnCrear);
             this.Name = "CrearPregunta";
             this.Text = "CrearPregunta";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CrearPregunta_FormClosed);
             this.Load += new System.EventHandler(this.CrearPregunta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -34,7 +34,7 @@ namespace Logica
             set { contestado = value; }
         }
 
-        private List<Respuesta> respuestas;
+        private List<Respuesta> respuestas=new List<Respuesta>();
 
         public List<Respuesta> _respuestas
         {

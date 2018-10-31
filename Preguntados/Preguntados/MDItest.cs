@@ -115,10 +115,7 @@ namespace Preguntados
         private void MDItest_Load(object sender, EventArgs e)
         {
             this.Text = "Preguntados";
-            jUGARToolStripMenuItem.Visible = false;
-            cerrarSesionToolStripMenuItem.Visible = false;
-            crearPreguntaToolStripMenuItem.Visible = false;
-            vERTOPSToolStripMenuItem.Visible = false;
+            mostrarBotonesMenuInicioSesion();
         }
 
 
@@ -143,13 +140,44 @@ namespace Preguntados
             {
                 Sesion.getInstance().logOUT();
                 toolStripStatusLabel.Text = "Sesion no iniciada";
-                jUGARToolStripMenuItem.Visible = false;
-                iniciarSesionToolStripMenuItem.Visible = true;
-                vERTOPSToolStripMenuItem.Visible = false;
-                crearPreguntaToolStripMenuItem.Visible = false;
-                cerrarSesionToolStripMenuItem.Visible = false;
+                mostrarBotonesMenuInicioSesion();
             }
                 
+        }
+
+        private void crearPreguntaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearPregunta unFormulario = new CrearPregunta();
+            unFormulario.MdiParent = this;
+            unFormulario._opener = this;
+            unFormulario.Show();
+        }
+
+        public void mostrarBotonesMenuInicioSesion()
+        {
+            jUGARToolStripMenuItem.Visible = false;
+            iniciarSesionToolStripMenuItem.Visible = true;
+            vERTOPSToolStripMenuItem.Visible = false;
+            crearPreguntaToolStripMenuItem.Visible = false;
+            cerrarSesionToolStripMenuItem.Visible = false;
+        }
+        
+        public void ocultarBotonesMenu()
+        {
+            jUGARToolStripMenuItem.Visible = false;
+            iniciarSesionToolStripMenuItem.Visible = false;
+            vERTOPSToolStripMenuItem.Visible = false;
+            crearPreguntaToolStripMenuItem.Visible = false;
+            cerrarSesionToolStripMenuItem.Visible = false;
+        }
+
+        public void mostrarBotonesMenuSesion()
+        {
+            iniciarSesionToolStripMenuItem.Visible = false;
+            jUGARToolStripMenuItem.Visible = true;
+            vERTOPSToolStripMenuItem.Visible = true;
+            crearPreguntaToolStripMenuItem.Visible = true;
+            cerrarSesionToolStripMenuItem.Visible = true;
         }
     }
 }

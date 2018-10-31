@@ -84,6 +84,7 @@
             this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
             this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
             this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
+            this.crearPreguntaToolStripMenuItem.Click += new System.EventHandler(this.crearPreguntaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
