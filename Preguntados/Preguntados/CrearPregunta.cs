@@ -34,7 +34,6 @@ namespace Preguntados
             cmbCategoria.DisplayMember = "_descripcion";
             cmbCategoria.ValueMember = "_id";
 
-
         }
 
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
