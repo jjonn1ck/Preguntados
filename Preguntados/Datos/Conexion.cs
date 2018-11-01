@@ -18,13 +18,12 @@ namespace Datos
 
         private void Conectar()
         {
-<<<<<<< HEAD
             strCadenaDeConexion = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Preguntados;Data Source=.\\SQLEXPRESS";
         
-=======
+
             strCadenaDeConexion = "Integrated Security = SSPI; Persist Security Info = False; Initial Catalog = Preguntados;Data Source=.\\SQLEXPRESS";
 
->>>>>>> fb00c2337fbccc172906d12b2331930bcfc62ada
+
             //Instanció un objeto del tipo SqlConnection
             objConexion = new SqlConnection();
             objConexion.ConnectionString = strCadenaDeConexion;

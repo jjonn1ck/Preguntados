@@ -186,13 +186,11 @@ namespace Preguntados
             objMenuPartida._opener = this;
             objMenuPartida.MdiParent = this;
             objMenuPartida.Show();
-<<<<<<< HEAD
-=======
             this.ocultarBotonesMenu();
 
 
 
->>>>>>> fb00c2337fbccc172906d12b2331930bcfc62ada
+
         }
     }
 }
