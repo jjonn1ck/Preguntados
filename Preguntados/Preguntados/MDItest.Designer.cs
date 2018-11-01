@@ -70,6 +70,7 @@
             this.jUGARToolStripMenuItem.Name = "jUGARToolStripMenuItem";
             this.jUGARToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.jUGARToolStripMenuItem.Text = "JUGAR";
+            this.jUGARToolStripMenuItem.Click += new System.EventHandler(this.jUGARToolStripMenuItem_Click);
             // 
             // vERTOPSToolStripMenuItem
             // 
@@ -84,6 +85,7 @@
             this.crearPreguntaToolStripMenuItem.Name = "crearPreguntaToolStripMenuItem";
             this.crearPreguntaToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
             this.crearPreguntaToolStripMenuItem.Text = "Crear Pregunta";
+            this.crearPreguntaToolStripMenuItem.Click += new System.EventHandler(this.crearPreguntaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 

@@ -65,11 +65,10 @@ namespace Preguntados
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            opener.jUGARToolStripMenuItem.Visible = false;
-            opener.iniciarSesionToolStripMenuItem.Visible = false;
-            opener.vERTOPSToolStripMenuItem.Visible = false;
-            opener.crearPreguntaToolStripMenuItem.Visible = false;
-            opener.cerrarSesionToolStripMenuItem.Visible = false;
+            this.Text = "Login";
+            opener.ocultarBotonesMenu();
+            this.WindowState = FormWindowState.Maximized;
+               
         }
 
         private void btnCrearUsuario_Click(object sender, EventArgs e)
@@ -84,19 +83,11 @@ namespace Preguntados
             //MDItest frm = Owner as MDItest;
             if (Sesion.getInstance()._usuario == null)
             {
-                opener.jUGARToolStripMenuItem.Visible = false;
-                opener.iniciarSesionToolStripMenuItem.Visible = true;
-                opener.vERTOPSToolStripMenuItem.Visible = false;
-                opener.crearPreguntaToolStripMenuItem.Visible = false;
-                opener.cerrarSesionToolStripMenuItem.Visible = false;
+                opener.mostrarBotonesMenuInicioSesion();
               }
             else
             {
-                opener.iniciarSesionToolStripMenuItem.Visible = false;
-                opener.jUGARToolStripMenuItem.Visible = true;
-                opener.vERTOPSToolStripMenuItem.Visible = true;
-                opener.crearPreguntaToolStripMenuItem.Visible = true;
-                opener.cerrarSesionToolStripMenuItem.Visible = true;
+                opener.mostrarBotonesMenuSesion();
             }
 
         }

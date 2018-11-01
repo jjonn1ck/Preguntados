@@ -25,9 +25,9 @@ namespace Logica
             set { descripcion = value; }
         }
 
-        private Boolean correcto;
+        private bool correcto;
 
-        public Boolean _correcto
+        public bool _correcto
         {
             get { return correcto; }
             set { correcto = value; }

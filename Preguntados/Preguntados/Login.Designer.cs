@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 71);
+            this.label1.Location = new System.Drawing.Point(188, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 108);
+            this.label2.Location = new System.Drawing.Point(188, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 1;
@@ -57,14 +57,14 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(118, 71);
+            this.txtUsuario.Location = new System.Drawing.Point(274, 130);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtUsuario.TabIndex = 2;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(118, 108);
+            this.txtContraseña.Location = new System.Drawing.Point(274, 167);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
@@ -72,7 +72,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(106, 156);
+            this.btnIngresar.Location = new System.Drawing.Point(262, 215);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(75, 39);
             this.btnIngresar.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             // btnCrearUsuario
             // 
-            this.btnCrearUsuario.Location = new System.Drawing.Point(106, 211);
+            this.btnCrearUsuario.Location = new System.Drawing.Point(262, 270);
             this.btnCrearUsuario.Name = "btnCrearUsuario";
             this.btnCrearUsuario.Size = new System.Drawing.Size(75, 39);
             this.btnCrearUsuario.TabIndex = 5;
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 283);
+            this.ClientSize = new System.Drawing.Size(632, 453);
             this.Controls.Add(this.btnCrearUsuario);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtContraseña);

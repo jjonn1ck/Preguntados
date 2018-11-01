@@ -77,5 +77,46 @@ namespace Datos
             int filasAfectadas = objconexion.EscribirPorStoreProcedure(nombreProcedure, parametros);
             return filasAfectadas;
         }
+
+        public DataTable buscarPregunta(string descPregunta)
+        {
+            Conexion objConexion = new Conexion();
+
+            string nombreSPLog = "pregunta_buscar";
+
+            SqlParameter[] parametroStoreLog = new SqlParameter[1];
+
+            parametroStoreLog[0] = objConexion.crearParametro("@descpregunta", descPregunta);
+
+            DataTable filasAfectadas = objConexion.LeerPorStoreProcedure(nombreSPLog, parametroStoreLog);
+
+            return filasAfectadas;
+        }
+
+        public int altaPreguntayRespuestas(string pregDesc,string catDesc,string sesUsuario,string sesInicio)
+        {
+            Conexion objconexion = new Conexion();
+            string nombreProcedure = "pregunta_alta";
+            SqlParameter[] parametros = new SqlParameter[4];
+            parametros[0] = objconexion.crearParametro("@pregunta_descripcion", pregDesc);
+            parametros[1] = objconexion.crearParametro("@categoria_descripcion", catDesc);
+            parametros[2] = objconexion.crearParametro("@sesion_usuario", sesUsuario);
+            parametros[3] = objconexion.crearParametro("@sesion_fechainicio", sesInicio);
+            int filasAfectadas = objconexion.EscribirPorStoreProcedure(nombreProcedure, parametros);
+            return filasAfectadas;
+        }
+
+        public int altaRespuesta (string respDesc,bool respCorrec, string pregDesc)
+        {
+            Conexion objconexion = new Conexion();
+            string nombreProcedure = "respuesta_alta";
+            SqlParameter[] parametros = new SqlParameter[3];
+            parametros[0] = objconexion.crearParametro("@respuesta_descripcion", respDesc);
+            parametros[1] = objconexion.crearParametro("@respuesta_correcto", respCorrec);
+            parametros[2] = objconexion.crearParametro("@pregunta_descripcion", pregDesc);
+            int filasAfectadas = objconexion.EscribirPorStoreProcedure(nombreProcedure, parametros);
+            return filasAfectadas;
+        }
+
     }
 }
