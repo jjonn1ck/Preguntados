@@ -15,8 +15,11 @@ namespace Preguntados
     {
         private MDItest opener;
 
+<<<<<<< HEAD
         public Partida unaPartida = new Partida();
 
+=======
+>>>>>>> fb00c2337fbccc172906d12b2331930bcfc62ada
         public MDItest _opener
         {
             get { return opener; }
