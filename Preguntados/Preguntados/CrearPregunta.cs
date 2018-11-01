@@ -43,7 +43,7 @@ namespace Preguntados
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             Pregunta pregunta = new Pregunta();
             string categoria;
             pregunta._descripcion = txtPregunta.Text;
@@ -62,7 +62,7 @@ namespace Preguntados
 
 
 
-=======
+
             Pregunta unaPregunta = new Pregunta();
             Respuesta unaRespuesta = new Respuesta();
             Respuesta unaRespuesta2 = new Respuesta();
@@ -89,7 +89,7 @@ namespace Preguntados
             }
              else
                 MessageBox.Show("No se pudo crear la pregunta porque ya existe", "Creacion de pregunta", MessageBoxButtons.OK);
->>>>>>> RamaDeBRIAN
+
 
         }
 
