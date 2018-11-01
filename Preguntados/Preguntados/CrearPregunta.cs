@@ -30,10 +30,11 @@ namespace Preguntados
         {
             this.WindowState = FormWindowState.Maximized;
             Categoria categoria = new Categoria();
-            cmbCategoria.DataSource = categoria.Listar();
+            cmbCategoria.DataSource = Sesion.getInstance()._categorias;
             cmbCategoria.DisplayMember = "_descripcion";
             cmbCategoria.ValueMember = "_id";
             opener.ocultarBotonesMenu();
+
         }
 
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
@@ -43,6 +44,7 @@ namespace Preguntados
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
+
             Pregunta unaPregunta = new Pregunta();
             Respuesta unaRespuesta = new Respuesta();
             Respuesta unaRespuesta2 = new Respuesta();
@@ -69,6 +71,26 @@ namespace Preguntados
             }
              else
                 MessageBox.Show("No se pudo crear la pregunta porque ya existe", "Creacion de pregunta", MessageBoxButtons.OK);
+
+            Pregunta pregunta = new Pregunta();
+            string categoria;
+            pregunta._descripcion = txtPregunta.Text;
+            categoria = cmbCategoria.Text;
+            Respuesta respuesta1 = new Respuesta();
+            respuesta1._descripcion = txtOpcion1.Text;
+            Respuesta respuesta2 = new Respuesta();
+            respuesta2._descripcion = txtOpcion2.Text;
+            Respuesta respuesta3 = new Respuesta();
+            respuesta3._descripcion = txtOpcion3.Text;
+            Respuesta respuesta4 = new Respuesta();
+            respuesta4._descripcion = txtOpcion4.Text;
+
+
+
+
+
+
+
 
         }
 

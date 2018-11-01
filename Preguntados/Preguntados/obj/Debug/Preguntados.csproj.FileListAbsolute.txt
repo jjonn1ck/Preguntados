@@ -36,3 +36,23 @@ C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.exe
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.pdb
 C:\Users\Brian Arteaga\source\repos\JuegoPreguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Login.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Preguntados.exe.config
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Preguntados.exe
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Preguntados.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Logica.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Datos.dll
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Logica.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\bin\Debug\Datos.pdb
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csprojAssemblyReference.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearPregunta.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.CrearUsuario.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Login.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MDItest.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDePartida.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.MenuDeSesion.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.Properties.Resources.resources
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.GenerateResource.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.CoreCompileInputs.cache
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.csproj.CopyComplete
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.exe
+C:\Users\joarteag\Documents\GitHub\Preguntados\Preguntados\Preguntados\obj\Debug\Preguntados.pdb

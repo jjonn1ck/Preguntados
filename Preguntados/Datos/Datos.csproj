@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CategoriaDAL.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="PartidaDAL.cs" />
     <Compile Include="PreguntaDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RespuestaDAL.cs" />

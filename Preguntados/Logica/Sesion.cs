@@ -137,8 +137,8 @@ namespace Logica
 
         public bool altaPreguntayRespuestas (Pregunta unaPregunta,string descCategoria)
         {
-            SesionDAL objUsuarioDAL = new SesionDAL();
-            int filasAfectadas = objUsuarioDAL.altaPreguntayRespuestas(unaPregunta._descripcion, descCategoria,Sesion.getInstance()._usuario._nomUsuario,Sesion.getInstance()._inicioSesion);
+            SesionDAL objDAL = new SesionDAL();
+            int filasAfectadas = objDAL.altaPreguntayRespuestas(unaPregunta._descripcion, descCategoria,Sesion.getInstance()._usuario._nomUsuario,Sesion.getInstance()._inicioSesion);
             if (filasAfectadas == -1)
             {
                 return false;
@@ -155,8 +155,8 @@ namespace Logica
 
         public bool altaRespuesta (Respuesta unaRespuesta,string pregDescripcion)
         {
-            SesionDAL objUsuarioDAL = new SesionDAL();
-            int filasAfectadas = objUsuarioDAL.altaRespuesta(unaRespuesta._descripcion, unaRespuesta._correcto, pregDescripcion);
+            SesionDAL objDAL = new SesionDAL();
+            int filasAfectadas = objDAL.altaRespuesta(unaRespuesta._descripcion, unaRespuesta._correcto, pregDescripcion);
             if (filasAfectadas == -1)
             {
                 return false;
@@ -165,6 +165,12 @@ namespace Logica
             {
                 return true;
             }
+        }
+
+        public void altaPartida (Partida unaPartida)
+        {
+            SesionDAL objDAL = new SesionDAL();
+            objDAL.altaPartida(unaPartida._fechaInicio, this._inicioSesion, this._usuario._nomUsuario);
         }
     }
 }

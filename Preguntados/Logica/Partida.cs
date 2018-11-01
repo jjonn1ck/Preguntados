@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Datos;
+using System.Globalization;
 
 namespace Logica
 {
@@ -16,6 +17,15 @@ namespace Logica
             get { return id; }
             set { id = value; }
         }
+
+        private string fechaInicio;
+
+        public string _fechaInicio
+        {
+            get { return fechaInicio; }
+            set { fechaInicio = value; }
+        }
+
 
         private Sesion sesion;
 
@@ -41,6 +51,13 @@ namespace Logica
             set { pregunta = value; }
         }
 
+        public void agregarFechaActual()
+        {
+            DateTime thistime = DateTime.Now;
+            CultureInfo ci = CultureInfo.InvariantCulture;
+            this.fechaInicio = thistime.ToString("yyyyMMdd HH:mm:ss.FFF", ci);
+
+        }
 
 
     }

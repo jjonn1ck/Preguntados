@@ -118,5 +118,17 @@ namespace Datos
             return filasAfectadas;
         }
 
+        public int altaPartida(string fechaPartida,string fechaSesion,string nomUsuario)
+        {
+            Conexion objconexion = new Conexion();
+            string nombreProcedure = "partida_alta";
+            SqlParameter[] parametros = new SqlParameter[3];
+            parametros[0] = objconexion.crearParametro("@fechaPartida", fechaPartida);
+            parametros[1] = objconexion.crearParametro("@fechaSesion", fechaSesion);
+            parametros[2] = objconexion.crearParametro("@nomUsuario", nomUsuario);
+            int filasAfectadas = objconexion.EscribirPorStoreProcedure(nombreProcedure, parametros);
+            return filasAfectadas;
+        }
+
     }
 }
