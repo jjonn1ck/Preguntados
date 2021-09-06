@@ -7,7 +7,7 @@ using System.Text;
 //Incorporo el espacio de nombre System.Data.SqlClient
 using System.Data.SqlClient;
 using System.Data;
-
+//prueba
 namespace Datos
 {
     class Conexion
